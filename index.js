@@ -44,4 +44,6 @@ app.use("/blog", blogRoutes);
 
 // port listing at 500  server side
 
-
+app.listen(port, () => {
+  console.log("server runing at 5000" || port);
+});
